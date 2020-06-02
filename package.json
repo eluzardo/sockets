@@ -1,0 +1,16 @@
+{
+  "name": "sockets",
+  "version": "1.0.0",
+  "description": "Prueba de sockets",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "node": "^14.0.0",
+    "nodemon": "^2.0.3"
+  },
+  "devDependencies": {},
+  "author": "Emiliano Luzardo",
+  "license": "ISC"
+}

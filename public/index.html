@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <title>Hola mundo</title>
+</head>
+<body>
+
+    <h1>websockets</h1>
+
+    <div class="chat-container" id="chat-container">
+        <div class="chat-window" id="chat-window">
+            <div class="output" id="output">
+                <div class="actions" id="actions">
+            
+
+                </div>
+            </div>
+        </div>
+        <input type="text" class="username" id="username" placeholder="Username">
+        <input type="text" class="message" id="message" placeholder="Message">
+        <button class="send" id="send">Enviar</button>
+    </div>
+
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="chat.js"></script>
+</body>
+</html>
